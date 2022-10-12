@@ -1,0 +1,412 @@
+/*  =======================
+    Author: Jannatul Ferdous
+    Author URL:  jannatulferdous1.netlify.app 
+    Temnplete-Name: Fiverr
+    version: 1.0 
+    ================================*/
+
+    /* ======================
+        Table Of Content
+    
+    
+    */
+/* =========================
+    Global CSS
+    ============== */
+/* ====================
+    Commmon CSS
+ */
+
+
+
+    /*----------------
+     root file 
+     --------------- */
+    :root
+    {
+         --bs-white: #FFFFFF; 
+         --bs-green: #54C59B; 
+         --bs-ultrapeach: #FBFAF7;
+         --bs-offskyblue:#D3D1FE;
+         --bs-peach: #F7EEE9; 
+         --bs-black: #2B2E35; 
+         --bs-red: #FC585A; 
+         --bs-cyan: #131313; 
+         --bs-blue: #253964; 
+         --bs-skyblue: #725EFF; 
+         --bs-neavyblue: #253964; 
+         --bs-deepblue: #0F1D34;
+    }
+
+    /* navbar style section  */
+
+    .navbar{
+        background-color: var(--bs-ultrapeach);
+    }
+    .logo a{
+        font-weight: bold;
+        color: var(--bs-black);
+        font-size: 30px;
+        /* margin-top: 50px !important; */
+    }
+    .navbar-collapse ul li a{
+        font-weight: bold;
+        font-size: 18px;
+        color: var(--bs-black);
+    }
+    .signbtn button{
+        background-color: var(--bs-skyblue);
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+    .ban-text p{
+        color: gray;
+        font: bold;
+        margin-bottom: -10px;
+        font-size: 16px;
+    }
+    .ban-text h1{
+        font-size: 80px ;
+        font-weight: bold;
+        color: var(--bs-black);
+    }
+    .ban-btn button{
+        background-color: var(--bs-red);
+        font-size: 14px;
+        padding: 5px 35px !important;
+        border: none;
+    }
+    .ban-btn i{
+        margin-left: 20px;
+        padding: 20px 20px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 33px -13px rgba(252,88,90,0.75);
+        -webkit-box-shadow: 10px 10px 33px -13px rgba(252,88,90,0.75);
+        -moz-box-shadow: 10px 10px 33px -13px rgba(252,88,90,0.75);
+    }
+    .ban-btn p{
+        font-weight: bold;
+        color: #0F1D34;
+        margin-top: 16px;
+         margin-left: 17px;
+    }
+    .ban img{
+        width: 660px !important;
+    }
+    .ban-con{
+        background-color: var(--bs-ultrapeach);
+        height: 100vh;
+    }
+    .people img{
+        height: 40px;
+        width: 45px ;
+        border-radius: 100px;
+        border: 2px solid #FFFFFF;
+    }
+    .people img:nth-child(2){
+        margin-left: -20px;
+    }
+    .people img:nth-child(3){
+        margin-left: -20px;
+    }
+    .people-p span{
+        color: var(--bs-red);
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .people{
+        margin-top: 70px;
+    }
+    .people p{
+        font-weight: bold;
+        color: var(--bs-black);
+        margin-left: 15px;
+    }
+
+    .card-sec-1{
+        background-color: var(--bs-blue);
+        width: 100%;
+        height: 30vh;
+    }
+    .cardsec1-text{
+        margin-left: 40px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .joinbtn button{
+        background-color: #FC585A;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 45px;
+        border: none;
+        border-radius: 30px;
+    }
+    .access-text h1{
+        color: var(--bs-black);
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 60px;
+    }
+    .access-text p{
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .access-checks-con{
+        margin-bottom: 30px;
+    }
+    .access-checks i{
+        color: var(--bs-white);
+        font-weight: bold;
+        padding:4px ;
+        font-size: 14px;
+        border-radius: 100px;
+        background-color: var(--bs-skyblue);
+        margin-right: 20px;
+    }
+    .start-btn button{
+        font-size: 14px;
+        padding: 17px 45px;
+        background-color: var(--bs-skyblue);
+        border-radius: 15px;
+    }
+    .cardsec2-title h5{
+        font-weight: bold;
+        color: var(--bs-black);
+    }
+    .cardsec2-text h5{
+        font-weight: bold;
+        font-size: 20px;
+        color: var(--bs-black);
+    }
+    .cardsec2-title p{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 6px 20px;
+        background-color: var(--bs-offskyblue);
+        border-radius: 10px;
+    }
+    .rate i{
+        color: var(--bs-red);
+    }
+    .card2{
+        border-radius: 20px;
+    }
+    .card2 img{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .card-sec-con-2 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--bs-black);
+    }
+    .btn i:first-child{
+        color: var(--bs-white);
+        padding: 5px 6px;
+        background-color: var(--bs-red);
+        border-radius: 3px;
+    }
+    .btn i:last-child{
+        color: var(--bs-white);
+        padding: 5px 6px;
+        background-color: gray;
+        border-radius: 3px;
+    }
+    .sayimg img{
+        width:  80px;
+        height: 70px;
+        border-radius: 100px;
+    }
+    .sayimg h5{
+        font-weight: bold;       
+    }
+    .rating i{
+        margin: 2px;
+        padding: 5px ;
+        border-radius: 100px;
+        background-color: var(--bs-green);
+        color: var(--bs-white);
+        font-size: 10px;
+    }
+    .say-con
+    {
+        background-color: var(--bs-ultrapeach);
+        height: 100vh;
+    }
+    .access-con{
+        height: 100vh;
+    }
+    .card-sec-con-2{
+        margin-top: 100px;
+    }
+    .view-btn button{
+        background-color: var(--bs-skyblue);
+        font-size: 16px;
+        font-weight: bold;
+        padding: 7px 40px;
+    }
+    .card-sec-con-2 h1{
+        margin-bottom: 50px;
+    }
+    .cardsec3{
+        border: none;       
+    }
+    .become-btn button{
+        background-color: var(--bs-skyblue);
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 50px;
+    }
+    .stories{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .ready{
+        background-color: var(--bs-deepblue);
+        margin-top: 100px;
+    }
+    .ready{
+        color: var(--bs-white);
+        height: 50vh;
+        border-radius: 30px;
+    }
+    .ready h1{
+        font-weight: 600;
+        font-size: 50px;
+    }
+    footer{
+        margin-top: 150px;
+    }
+    .ficon i{
+        padding: 5px;
+        background-color: var(--bs-deepblue);
+        border-radius: 100px;
+        color: var(--bs-white);
+    }
+
+    @media (max-width: 575.98px) { 
+        .ban-con{
+            height: 120vh;
+        }
+        .ban-row{
+            display: flex;
+            flex-direction: column-reverse !important;
+        }
+        .ban-text{
+            text-align: start;
+            margin-top: 40px !important;
+        }
+        .ban-text h1{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .ban-btn button{
+            padding: 0px 7px !important;
+        }
+        .joinbtn button{
+            margin-bottom: 50px;
+        }
+        .people{
+            margin-top: 30px !important;
+        }
+        .cardsec1-con {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-sec-1{
+            height: 130vh;
+        }
+        .cardsec1-text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .access-con{
+            height: 150vh;
+        }
+        .access-text h1{
+            font-size: 35px;
+        }
+        .study img{
+            margin-top: 100px;
+        }
+        .worldcls{
+            margin-right: 5px !important;
+        }
+        .start-btn button{
+            padding: 10px 25px !important;
+        }
+        .cardsec2{
+            display: flex;
+            flex-direction: column;
+        }
+        .cardsec2 h1{
+            font-size: 35px;
+        }
+        .view-btn button{
+            padding: 10px 25px !important;
+        }
+        .cardsec2-div{
+            margin-top: 100px;
+        }
+        .card2{
+            margin-bottom: 30px;
+        }
+        .cardsec2-title p{
+            padding: 7px 20px !important;
+            font-size: 14px;
+        }
+        .stories{
+            height: 140vh;
+        
+        }
+        .say-btn{
+            display: flex;
+            flex-direction: column;
+        }
+        .sayimg img{
+            width: 50px ;
+            height: 40px;
+        }
+        .cardsec3{
+            margin-top: 50px;
+        }
+        .say-con{
+            padding: 350px 0px 600px 0px;
+        }
+        .ready h1{
+            font-size: 30px;
+        }
+        .ready{
+            width: 96%;
+            margin-bottom: 50px;
+        }
+        .become-btn button{
+            padding: 10px 40px;
+        }
+     }
+
+     @media (max-width: 991.98px) { 
+        .ban-text h1{
+            font-size: 40px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+        .card-sec-1{
+            height: 50vh;
+        }
+        .access-text h1{
+            font-size: 30px;
+        }
+        .start-btn button{
+            padding: 10px 20px;
+        }
+        .cardsec2-title p{
+            padding: 10px 10px !important;
+            font-size: 14px;
+        }
+      }
