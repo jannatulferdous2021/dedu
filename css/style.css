@@ -316,7 +316,7 @@
             align-items: center;
         }
         .card-sec-1{
-            height: 130vh;
+            height: 100vh !important;
         }
         .cardsec1-text{
             text-align: center;
